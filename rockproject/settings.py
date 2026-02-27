@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'rockproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postregsql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('DB_NAME', 'rockofages'),
         'USER': os.getenv('DB_USER', 'rockadmin'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
